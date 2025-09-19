@@ -1,6 +1,7 @@
-import "./index.css"; // <-- must match path & case exactly
+
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./index.css"; // <-- must match path & case exactly
 import App from "./App";
 
 
