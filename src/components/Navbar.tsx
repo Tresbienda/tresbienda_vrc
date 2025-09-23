@@ -7,9 +7,11 @@ const Navbar = () => {
             <li><a href="/projects" className="hover:text-blue-600">Projects</a></li>
             <li><a href="/experience" className="hover:text-blue-600">Experience</a></li>
             <li><a href="/contact" className="hover:text-blue-600">Contact</a></li>
-        </ul>
+        </ul>     
     </nav>
+    
   );
 };
 
 export default Navbar;
+

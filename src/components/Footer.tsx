@@ -5,7 +5,7 @@ const Footer: React.FC = () => (
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
             <span className="text-sm">&copy; {new Date().getFullYear()} My Portfolio. All rights reserved.</span>
             <div className="mt-2 md:mt-0 flex space-x-4">
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+                <a href="https://github.com/Tresbienda" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
                     GitHub
                 </a>
                 <a href="https://linkedin.com/al-hafizd-hernanda" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
