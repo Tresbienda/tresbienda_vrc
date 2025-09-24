@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
           </motion.a>
         </div>
 
-        {/* RIGHT: Caricature PNG */}
+        {/* RIGHT: Hero Page Concept 2 */}
         <motion.div
           className="flex-1 flex justify-center mt-10 md:mt-0"
           initial={{ opacity: 0, x: 100 }}
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <img
-            src="/caricature.png" // put your file inside public/
+            src="/Hero Page Concept 2.png" // put your file inside public/
             alt="Caricature"
             className="w-auto h-auto object-contain drop-shadow-lg"
           />

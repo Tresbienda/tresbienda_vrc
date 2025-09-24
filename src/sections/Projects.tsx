@@ -5,9 +5,9 @@ const Projects: React.FC = () => {
   const [emblaRef] = useEmblaCarousel({ loop: true, align: "center", slidesToScroll: 1 });
 
   const cards = [
-    { id: 1, title: "Project 1", desc: "Description of project 1", img: "/p1.png", link: "#" },
-    { id: 2, title: "Project 2", desc: "Description of project 2", img: "/p2.png", link: "#" },
-    { id: 3, title: "Project 3", desc: "Description of project 3", img: "/p3.png", link: "#" },
+    { id: 1, title: "Pressure Vessel Nozzle Modification", desc: "Description of project 1", img: "/p1.png", link: "#" },
+    { id: 2, title: "High Pressure High Temperature Pipe Modification", desc: "Description of project 2", img: "/p2.png", link: "#" },
+    { id: 3, title: "Gas Exhaust Stack Modification", desc: "Description of project 3", img: "/p3.png", link: "#" },
     { id: 4, title: "Project 4", desc: "Description of project 4", img: "/p4.png", link: "#" },
     { id: 5, title: "Project 5", desc: "Description of project 5", img: "/p5.png", link: "#" },
     { id: 6, title: "Project 6", desc: "Description of project 6", img: "/p6.png", link: "#" },
